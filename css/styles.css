@@ -1,0 +1,33 @@
+/*PARA IMPORTAR LA FUENTE @IMPORT GOOGLE FONTS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+/*Variables de Color*/
+
+:root {
+  --color-primary: #310ecc;
+  --color-secondary: #5f46d1;
+  --color-dark: #000000;
+  --color-light: #ccc;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  font-size: 40px;
+  color: var(--color-light);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 80px;
+}
