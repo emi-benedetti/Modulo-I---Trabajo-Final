@@ -22,7 +22,7 @@
 h1 {
   font-family: "Dancing Script";
   font-size: 40px;
-  color: var(--color-light);
+  color: white;
 }
 
 a {
@@ -31,6 +31,12 @@ a {
 
 header {
   height: 80px;
+}
+
+h4 {
+  font-family: "Dancing Script";
+  font-size: 30px;
+  font-weight: 8px;
 }
 
 h5 {
@@ -51,4 +57,42 @@ h6 {
 .hero-text {
   font-family: "Dancing Script";
   font-size: xx-large;
+}
+
+.card {
+  width: 300px;
+  height: 250px;
+  border-radius: 2px solid #068f0d;
+  box-shadow: 0 4px 8px;
+}
+
+.card-header {
+  background-color: #2d8f32;
+  color: white;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
+  vertical-align: middle;
+}
+
+form {
+  border-radius: 8px;
+}
+
+input {
+  border: none;
+}
+
+.Input-consulta {
+  width: 500px;
+  height: 100px;
+  vertical-align: top;
+}
+section {
+  border-radius: 12px;
 }
